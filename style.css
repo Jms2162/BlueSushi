@@ -75,7 +75,7 @@ nav a:hover{border-color:var(--lime)}
 .tabs button{font:500 1rem var(--sans);padding:.6rem 1.2rem;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
 .tabs button[aria-selected="true"]{background:var(--cyan);border-color:var(--cyan);color:#000;font-weight:700}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.2rem}
-.card{display:block;perspective:900px;font:inherit;color:inherit;text-align:left;cursor:pointer;height:210px;border-radius:18px;-webkit-tap-highlight-color:transparent}
+.card{display:block;perspective:900px;font:inherit;color:inherit;text-align:left;cursor:pointer;height:240px;border-radius:18px;-webkit-tap-highlight-color:transparent}
 .card .in{display:block;position:relative;width:100%;height:100%;transition:transform .6s;transform-style:preserve-3d}
 .card.flipped .in{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;border-radius:18px;padding:1.3rem;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;justify-content:space-between}
@@ -102,6 +102,12 @@ input[type=text],select{font:inherit;color:var(--ink);background:var(--bg);borde
 .checks input{width:20px;height:20px;accent-color:var(--cyan-deep)}
 .group-title{font:700 1rem var(--sans);color:var(--accent);margin:1rem 0 .4rem;text-transform:uppercase;letter-spacing:.06em}
 .group-title:first-of-type{margin-top:0}
+.menu-group{border-bottom:1px solid var(--line);padding-block:.2rem}
+.menu-group>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:.6rem;padding:.7rem 0}
+.menu-group>summary::-webkit-details-marker{display:none}
+.menu-group>summary::before{content:"+";display:grid;place-items:center;width:1.5rem;height:1.5rem;border:1px solid currentColor;border-radius:50%}
+.menu-group[open]>summary::before{content:"−"}
+.menu-group .line:last-child{border-bottom:0}
 .line{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem 0;border-bottom:1px dashed var(--line)}
 .line .nm{flex:1}
 .line .nm small{display:block;color:var(--muted)}
