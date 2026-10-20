@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blue Sushi · Santa Rosa, La Pampa</title>
+<meta name="description" content="Sushi artesanal en Santa Rosa, La Pampa. Rolls, nigiris y combos para retirar o pedir por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#inicio"><i></i>Blue Sushi</a>
+    <button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span></button>
+    <nav id="nav" aria-label="Principal">
+      <ul>
+        <li><a href="#carta">Carta</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#visitanos">Visitanos</a></li>
+        <li><a href="#pedir">Pedir</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Sushi fresco en el corazón de La Pampa</h1>
+        <p>Rolls, nigiris y combos preparados al momento en Santa Rosa. Retiralos en el local o pedilos por WhatsApp.</p>
+        <div class="cta">
+          <a class="btn" href="https://wa.me/5492954000000?text=Hola%20Blue%20Sushi%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <a class="btn ghost" href="#carta">Ver la carta</a>
+        </div>
+      </div>
+      <svg class="maki" viewBox="0 0 200 200" role="img" aria-label="Roll de sushi visto desde arriba">
+        <circle cx="100" cy="100" r="96" fill="#04101F"/>
+        <circle cx="100" cy="100" r="82" fill="#F4F8FB"/>
+        <g fill="#DCE7F0"><circle cx="60" cy="70" r="5"/><circle cx="78" cy="55" r="5"/><circle cx="130" cy="58" r="5"/><circle cx="145" cy="82" r="5"/><circle cx="150" cy="125" r="5"/><circle cx="128" cy="148" r="5"/><circle cx="80" cy="150" r="5"/><circle cx="55" cy="126" r="5"/><circle cx="50" cy="98" r="5"/></g>
+        <circle cx="100" cy="100" r="46" fill="#1F5FD6"/>
+        <path d="M70 105c10-24 50-24 60 0-10 22-50 22-60 0z" fill="#FF8A5C"/>
+        <path d="M82 102c8-10 28-10 36 0" stroke="#FFD1BC" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <circle cx="100" cy="100" r="8" fill="#9ED36A"/>
+        <g fill="#E8582B"><circle cx="40" cy="100" r="3"/><circle cx="160" cy="100" r="3"/><circle cx="100" cy="40" r="3"/><circle cx="100" cy="160" r="3"/></g>
+      </svg>
+    </div>
+    <svg class="waves" viewBox="0 0 1200 56" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 30c100 26 200 26 300 0s200-26 300 0 200 26 300 0 200-26 300 0v26H0z"/></svg>
+  </div>
+
+  <section id="carta">
+    <div class="wrap">
+      <h2>La carta</h2>
+      <p class="lead">Pescado y vegetales seleccionados, arroz recién hecho y todo armado a pedido.</p>
+      <div class="tabs" role="tablist" aria-label="Categorías">
+        <button role="tab" aria-selected="true" data-t="rolls">Rolls</button>
+        <button role="tab" aria-selected="false" data-t="nigiri">Nigiris</button>
+        <button role="tab" aria-selected="false" data-t="combos">Combos</button>
+      </div>
+      <div class="menu show" id="rolls">
+        <div class="item"><div>California Roll <span>$9.800</span></div><small>Kani, palta y pepino. 8 piezas.</small></div>
+        <div class="item"><div>Philadelphia Roll <span>$11.200</span></div><small>Salmón, queso crema y ciboulette. 8 piezas.</small></div>
+        <div class="item"><div>Blue Roll <span>$12.500</span></div><small>Langostino tempura, palta y salsa de la casa. 8 piezas.</small></div>
+        <div class="item"><div>Salmón Furay <span>$12.900</span></div><small>Salmón rebozado, queso y sésamo. 8 piezas.</small></div>
+        <div class="item"><div>Veggie Roll <span>$8.900</span></div><small>Zanahoria, pepino, palta y morrón. 8 piezas.</small></div>
+        <div class="item"><div>Tuna Spicy <span>$13.400</span></div><small>Atún, salsa picante y tobiko. 8 piezas.</small></div>
+      </div>
+      <div class="menu" id="nigiri">
+        <div class="item"><div>Nigiri de salmón <span>$6.500</span></div><small>4 piezas.</small></div>
+        <div class="item"><div>Nigiri de atún <span>$7.200</span></div><small>4 piezas.</small></div>
+        <div class="item"><div>Nigiri de langostino <span>$6.900</span></div><small>4 piezas.</small></div>
+        <div class="item"><div>Sashimi de salmón <span>$9.500</span></div><small>8 cortes.</small></div>
+      </div>
+      <div class="menu" id="combos">
+        <div class="item"><div>Combo para 1 <span>$16.900</span></div><small>12 piezas surtidas: rolls y nigiris.</small></div>
+        <div class="item"><div>Combo para 2 <span>$31.500</span></div><small>24 piezas surtidas con salsa de soja y wasabi.</small></div>
+        <div class="item"><div>Combo Blue <span>$46.000</span></div><small>40 piezas: nuestros rolls más pedidos. Ideal para compartir.</small></div>
+        <div class="item"><div>Combo veggie <span>$14.500</span></div><small>16 piezas sin pescado.</small></div>
+      </div>
+      <p class="note">Precios de ejemplo en pesos argentinos. Consultá la carta actualizada por WhatsApp.</p>
+    </div>
+  </section>
+
+  <section id="nosotros" class="about">
+    <div class="wrap">
+      <div>
+        <h2>Hecho a mano, todos los días</h2>
+        <p>En Blue Sushi cortamos el pescado y cocinamos el arroz cada día, para que lo que llega a tu mesa sea fresco y tenga el punto justo. Somos de Santa Rosa y cocinamos para los pampeanos.</p>
+        <p>Si tenés alguna alergia o preferencia, avisanos al pedir y lo armamos a tu medida.</p>
+      </div>
+      <div class="facts">
+        <div><b>Pescado seleccionado</b>Salmón, atún y langostinos elegidos a diario.</div>
+        <div><b>Arroz recién hecho</b>Con el vinagre y el punto de cocción tradicionales.</div>
+        <div><b>Opciones sin pescado</b>Rolls vegetarianos y combos veggie.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visitanos">
+    <div class="wrap">
+      <h2>Visitanos</h2>
+      <div class="info">
+        <article><h3>Dónde estamos</h3><p>Santa Rosa, La Pampa.<br>[Completar dirección del local]</p></article>
+        <article><h3>Horarios</h3><p>Martes a domingo<br>20:00 a 00:00<br>[Ajustar según el local]</p></article>
+        <article><h3>Contacto</h3><p>WhatsApp: +54 9 2954 00-0000<br>Instagram: @bluesushi.sr</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pedir" style="padding-top:0">
+    <div class="wrap" style="text-align:center">
+      <h2>¿Listo para pedir?</h2>
+      <p class="lead" style="margin-inline:auto">Escribinos, elegí tu combo y retiralo en el local.</p>
+      <a class="btn" href="https://wa.me/5492954000000?text=Hola%20Blue%20Sushi%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Blue Sushi</strong> · Santa Rosa, La Pampa, Argentina</p>
+    <p>© 2026 Blue Sushi. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"> </script>
+</body>
+
+</html>
