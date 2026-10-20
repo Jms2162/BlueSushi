@@ -2,26 +2,28 @@
 <html lang="es-AR">
 <head>
 <meta charset="utf-8">
+<meta name="theme-color" content="#000000">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Blue Sushi · Santa Rosa, La Pampa</title>
-<meta name="description" content="Sushi artesanal en Santa Rosa, La Pampa. Rolls, nigiris y combos para retirar o pedir por WhatsApp.">
+<title>Blue Sushi · Restaurante japonés en Santa Rosa, La Pampa</title>
+<meta name="description" content="Blue Sushi, una de las primeras casas de sushi de Argentina. Santa Rosa, La Pampa. Pedí por WhatsApp.">
+<link rel="icon" href="img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
+
 <header>
   <div class="wrap bar">
-    <a class="logo" href="#inicio"><i></i>Blue Sushi</a>
+    <a class="logo" href="#inicio" aria-label="Blue Sushi, inicio"><img src="img/logo.svg" alt="Blue Sushi · Restaurante japonés"></a>
     <button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span></button>
     <nav id="nav" aria-label="Principal">
       <ul>
-        <li><a href="#carta">Carta</a></li>
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#visitanos">Visitanos</a></li>
+        <li><a href="#nosotros">Quiénes somos</a></li>
+        <li><a href="#piezas">Piezas</a></li>
         <li><a href="#pedir">Pedir</a></li>
+        <li><a href="#visitanos">Visitanos</a></li>
       </ul>
     </nav>
   </div>
@@ -31,103 +33,131 @@
   <div class="hero">
     <div class="wrap">
       <div>
-        <h1>Sushi fresco en el corazón de La Pampa</h1>
-        <p>Rolls, nigiris y combos preparados al momento en Santa Rosa. Retiralos en el local o pedilos por WhatsApp.</p>
+        <h1>Sushi con historia en el corazón de <em>La Pampa</em></h1>
+        <p>Una de las primeras casas de sushi de Argentina, ahora en Santa Rosa. Armá tu pedido online y retiralo o recibilo en tu casa.</p>
         <div class="cta">
-          <a class="btn" href="https://wa.me/5492954000000?text=Hola%20Blue%20Sushi%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
-          <a class="btn ghost" href="#carta">Ver la carta</a>
+          <a class="btn" href="#pedir">Hacer un pedido</a>
+          <a class="btn ghost" href="#piezas">Ver las piezas</a>
         </div>
       </div>
-      <svg class="maki" viewBox="0 0 200 200" role="img" aria-label="Roll de sushi visto desde arriba">
-        <circle cx="100" cy="100" r="96" fill="#04101F"/>
-        <circle cx="100" cy="100" r="82" fill="#F4F8FB"/>
-        <g fill="#DCE7F0"><circle cx="60" cy="70" r="5"/><circle cx="78" cy="55" r="5"/><circle cx="130" cy="58" r="5"/><circle cx="145" cy="82" r="5"/><circle cx="150" cy="125" r="5"/><circle cx="128" cy="148" r="5"/><circle cx="80" cy="150" r="5"/><circle cx="55" cy="126" r="5"/><circle cx="50" cy="98" r="5"/></g>
-        <circle cx="100" cy="100" r="46" fill="#1F5FD6"/>
-        <path d="M70 105c10-24 50-24 60 0-10 22-50 22-60 0z" fill="#FF8A5C"/>
-        <path d="M82 102c8-10 28-10 36 0" stroke="#FFD1BC" stroke-width="3" fill="none" stroke-linecap="round"/>
-        <circle cx="100" cy="100" r="8" fill="#9ED36A"/>
-        <g fill="#E8582B"><circle cx="40" cy="100" r="3"/><circle cx="160" cy="100" r="3"/><circle cx="100" cy="40" r="3"/><circle cx="100" cy="160" r="3"/></g>
-      </svg>
+      <img src="img/logo.svg" alt="Logo de Blue Sushi">
     </div>
     <svg class="waves" viewBox="0 0 1200 56" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 30c100 26 200 26 300 0s200-26 300 0 200 26 300 0 200-26 300 0v26H0z"/></svg>
   </div>
 
-  <section id="carta">
-    <div class="wrap">
-      <h2>La carta</h2>
-      <p class="lead">Pescado y vegetales seleccionados, arroz recién hecho y todo armado a pedido.</p>
-      <div class="tabs" role="tablist" aria-label="Categorías">
-        <button role="tab" aria-selected="true" data-t="rolls">Rolls</button>
-        <button role="tab" aria-selected="false" data-t="nigiri">Nigiris</button>
-        <button role="tab" aria-selected="false" data-t="combos">Combos</button>
-      </div>
-      <div class="menu show" id="rolls">
-        <div class="item"><div>California Roll <span>$9.800</span></div><small>Kani, palta y pepino. 8 piezas.</small></div>
-        <div class="item"><div>Philadelphia Roll <span>$11.200</span></div><small>Salmón, queso crema y ciboulette. 8 piezas.</small></div>
-        <div class="item"><div>Blue Roll <span>$12.500</span></div><small>Langostino tempura, palta y salsa de la casa. 8 piezas.</small></div>
-        <div class="item"><div>Salmón Furay <span>$12.900</span></div><small>Salmón rebozado, queso y sésamo. 8 piezas.</small></div>
-        <div class="item"><div>Veggie Roll <span>$8.900</span></div><small>Zanahoria, pepino, palta y morrón. 8 piezas.</small></div>
-        <div class="item"><div>Tuna Spicy <span>$13.400</span></div><small>Atún, salsa picante y tobiko. 8 piezas.</small></div>
-      </div>
-      <div class="menu" id="nigiri">
-        <div class="item"><div>Nigiri de salmón <span>$6.500</span></div><small>4 piezas.</small></div>
-        <div class="item"><div>Nigiri de atún <span>$7.200</span></div><small>4 piezas.</small></div>
-        <div class="item"><div>Nigiri de langostino <span>$6.900</span></div><small>4 piezas.</small></div>
-        <div class="item"><div>Sashimi de salmón <span>$9.500</span></div><small>8 cortes.</small></div>
-      </div>
-      <div class="menu" id="combos">
-        <div class="item"><div>Combo para 1 <span>$16.900</span></div><small>12 piezas surtidas: rolls y nigiris.</small></div>
-        <div class="item"><div>Combo para 2 <span>$31.500</span></div><small>24 piezas surtidas con salsa de soja y wasabi.</small></div>
-        <div class="item"><div>Combo Blue <span>$46.000</span></div><small>40 piezas: nuestros rolls más pedidos. Ideal para compartir.</small></div>
-        <div class="item"><div>Combo veggie <span>$14.500</span></div><small>16 piezas sin pescado.</small></div>
-      </div>
-      <p class="note">Precios de ejemplo en pesos argentinos. Consultá la carta actualizada por WhatsApp.</p>
-    </div>
-  </section>
-
-  <section id="nosotros" class="about">
+  <!-- ================= QUIÉNES SOMOS ================= -->
+  <section id="nosotros" class="about theme-light">
     <div class="wrap">
       <div>
-        <h2>Hecho a mano, todos los días</h2>
-        <p>En Blue Sushi cortamos el pescado y cocinamos el arroz cada día, para que lo que llega a tu mesa sea fresco y tenga el punto justo. Somos de Santa Rosa y cocinamos para los pampeanos.</p>
-        <p>Si tenés alguna alergia o preferencia, avisanos al pedir y lo armamos a tu medida.</p>
+        <span class="badge">Pioneros del sushi en Argentina</span>
+        <h2>¿Quiénes somos?</h2>
+        <p>Blue Sushi es una de las primeras casas de sushi de Argentina. Mucho antes de que el sushi se volviera moda, ya estábamos cortando pescado y armando rolls para quienes se animaban a probar algo nuevo.</p>
+        <p>Hoy llevamos esa experiencia a Santa Rosa, La Pampa: pescado y vegetales seleccionados, arroz recién hecho y cada pieza preparada a mano, todos los días.</p>
+        <p><em>[Contá acá tu historia: quién fundó Blue Sushi, en qué año y en qué ciudad abrió el primer local.]</em></p>
       </div>
-      <div class="facts">
-        <div><b>Pescado seleccionado</b>Salmón, atún y langostinos elegidos a diario.</div>
-        <div><b>Arroz recién hecho</b>Con el vinagre y el punto de cocción tradicionales.</div>
-        <div><b>Opciones sin pescado</b>Rolls vegetarianos y combos veggie.</div>
+      <div class="stats">
+        <div><b>Desde 20XX</b>Cocinando sushi en Argentina [completar año]</div>
+        <div><b>Pioneros</b>Entre las primeras casas de sushi del país</div>
+        <div><b>Hecho a mano</b>Cada pieza se prepara al momento</div>
       </div>
     </div>
   </section>
 
-  <section id="visitanos">
+  <!-- ================= PIEZAS ================= -->
+  <section id="piezas" class="theme-dark">
+    <div class="wrap">
+      <h2>Nuestras piezas</h2>
+      <p class="lead">Tocá una tarjeta para darla vuelta y ver qué lleva.</p>
+      <div class="tabs" role="tablist" aria-label="Categorías">
+        <button role="tab" aria-selected="true" data-cat="pieza">Piezas</button>
+        <button role="tab" aria-selected="false" data-cat="combo">Combos</button>
+      </div>
+      <div class="cards" id="cards"></div>
+    </div>
+  </section>
+
+  <!-- ================= PEDIR ================= -->
+  <section id="pedir" class="order theme-light">
+    <div class="wrap">
+      <h2>Hacé tu pedido</h2>
+      <p class="lead">Completá los datos, elegí las cantidades con las flechas y te abrimos WhatsApp con el pedido listo para enviar.</p>
+
+      <form id="form" novalidate>
+        <fieldset>
+          <legend>1. Tus datos</legend>
+          <div class="field">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" autocomplete="name" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>2. Elegí tus piezas y combos</legend>
+          <div id="items"></div>
+          <div class="total"><span>Total</span><span id="total">$0</span></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>3. Entrega</legend>
+          <div class="field">
+            <div class="checks">
+              <label><input type="checkbox" id="delivery" checked> Delivery</label>
+              <label><input type="checkbox" id="takeaway"> Take away (retiro en el local)</label>
+            </div>
+          </div>
+          <div id="direccion">
+            <div class="row2">
+              <div class="field"><label for="calle">Calle</label><input type="text" id="calle" autocomplete="address-line1"></div>
+              <div class="field"><label for="altura">Altura</label><input type="text" id="altura" inputmode="numeric"></div>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>4. Método de pago</legend>
+          <div class="field">
+            <label for="pago">¿Cómo vas a pagar?</label>
+            <select id="pago">
+              <option value="">Elegí una opción…</option>
+              <option>Efectivo</option>
+              <option>Tarjeta de débito</option>
+              <option>Tarjeta de crédito</option>
+              <option>Billetera virtual</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <p class="err" id="error" role="alert"></p>
+        <button class="btn" type="submit">Enviar pedido por WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= VISITANOS ================= -->
+  <section id="visitanos" class="theme-dark">
     <div class="wrap">
       <h2>Visitanos</h2>
       <div class="info">
-        <article><h3>Dónde estamos</h3><p>Santa Rosa, La Pampa.<br>[Completar dirección del local]</p></article>
+        <article><h3>Dónde estamos</h3><p>Garibaldi 431<br>Santa Rosa, La Pampa.</p></article>
         <article><h3>Horarios</h3><p>Martes a domingo<br>20:00 a 00:00<br>[Ajustar según el local]</p></article>
-        <article><h3>Contacto</h3><p>WhatsApp: +54 9 2954 00-0000<br>Instagram: @bluesushi.sr</p></article>
+        <article><h3>Contacto</h3><p><a href="https://wa.me/5491125547478" target="_blank" rel="noopener noreferrer">WhatsApp: +54 9 11 2554-7478</a><br><a href="https://www.instagram.com/bluesushi.ok/" target="_blank" rel="noopener noreferrer">Instagram: @bluesushi.ok</a></p></article>
       </div>
-    </div>
-  </section>
-
-  <section id="pedir" style="padding-top:0">
-    <div class="wrap" style="text-align:center">
-      <h2>¿Listo para pedir?</h2>
-      <p class="lead" style="margin-inline:auto">Escribinos, elegí tu combo y retiralo en el local.</p>
-      <a class="btn" href="https://wa.me/5492954000000?text=Hola%20Blue%20Sushi%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+      <!-- Para cambiar el lugar: en Google Maps buscá tu local > Compartir > Insertar un mapa > copiá el link que está en src="..." y pegalo abajo. -->
+      <iframe class="map" title="Mapa de Blue Sushi en Santa Rosa, La Pampa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Garibaldi+431,+Santa+Rosa,+La+Pampa,+Argentina&output=embed"></iframe>
     </div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <p><strong>Blue Sushi</strong> · Santa Rosa, La Pampa, Argentina</p>
+    <p><strong>Blue Sushi</strong> · Restaurante japonés · Santa Rosa, La Pampa, Argentina</p>
     <p>© 2026 Blue Sushi. Todos los derechos reservados.</p>
   </div>
 </footer>
 
-<script src="script.js"> </script>
-</body>
+<a class="btn fab" href="#pedir">Pedir</a>
 
+<script src="script.js"></script>
+</body>
 </html>
