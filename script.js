@@ -14,28 +14,28 @@ const GROUPS = [
   { id: "platos", title: "Platos" },
   { id: "woks", title: "Woks" },
   { id: "salsas", title: "Salsas adicionales" },
-  { id: "sushi", title: "Sushi, makis y rolls" },
+  { id: "sushi", title: "Sushi, makis & rolls" },
   { id: "combos", title: "Combos" }
 ];
 const MENU = [
-  { id: "tartare-salmon", cat: "entradas", name: "Tartare de salmón", price: 29000, desc: "Salmón rosado, palta, cebolla morada, mayonesa japonesa, salmón ahumado y caviar." },
-  { id: "salmon-crispy-nuggets", cat: "entradas", name: "Salmón crispy nuggets", price: 25000, desc: "Bocaditos de salmón rebozados en panko con salsa teriyaki." },
-  { id: "mariscos-al-fuego", cat: "entradas", name: "Mariscos al fuego", price: 35000, desc: "Frutos del mar salteados con manteca del diablo, ají molido, pimienta y pimentón." },
-  { id: "ebi-furai", cat: "entradas", name: "Ebi Furai", price: 28000, desc: "Langostinos rebozados en panko con salsa teriyaki, arroz, queso Philadelphia y sésamo." },
-  { id: "ebi-coco-almendras", cat: "entradas", name: "Ebi coco y almendras", price: 35000, desc: "Langostinos rebozados en coco y almendras fileteadas, con salsa teriyaki, arroz, queso Philadelphia y sésamo." },
-  { id: "langostinos-tempura", cat: "entradas", name: "Langostinos en tempura", price: 30000, desc: "Langostinos rebozados en tempura con salsa teriyaki." },
-  { id: "gambas-ajillo", cat: "entradas", name: "Gambas salteadas al ajillo", price: 28000, desc: "Gambas salteadas al ajillo." },
-  { id: "rabas-panko", cat: "entradas", name: "Rabas en panko", price: 25000, desc: "Rabas rebozadas en panko." },
-  { id: "korokke-mariscos", cat: "entradas", name: "Korokke de mariscos", price: 20000, desc: "Croquetas de arroz rebozadas en panko, con kanikama, langostino y mayonesa japonesa." },
-  { id: "harumaki-carne", cat: "entradas", name: "Harumakis de carne", price: 15000, desc: "4 unidades por porción." },
-  { id: "harumaki-vegetariano", cat: "entradas", name: "Harumakis vegetarianos", price: 15000, desc: "4 unidades por porción." },
-  { id: "harumaki-mixto", cat: "entradas", name: "Harumakis mixtos", price: 15000, desc: "4 unidades por porción: dos de carne y dos de verdura." },
-  { id: "ceviche-casa", cat: "entradas", name: "Ceviche de la casa", price: 25000, desc: "Langostinos, salmón rosado, pesca blanca y guacamole." },
-  { id: "ceviche-tropical", cat: "entradas", name: "Ceviche Tropical", price: 28000, desc: "Salmón, langostinos y calamar con cubitos de mango en salsa de maracuyá." },
-  { id: "korokke-veg", cat: "entradas", name: "Korokke vegetariano", price: 14000, desc: "Croquetas de arroz frito." },
+  { id: "tartare-salmon", cat: "entradas", name: "Tartare de salmón", price: 29000, image: "img/tartare_de_salmon.jpg", desc: "Salmón rosado, palta, cebolla morada, mayonesa japonesa, salmón ahumado y caviar." },
+  { id: "salmon-crispy-nuggets", cat: "entradas", name: "Salmón crispy nuggets", price: 25000, image: "img/salmon_crispy_nuggets.jpg", desc: "Bocaditos de salmón rebozados en panko con salsa teriyaki." },
+  { id: "mariscos-al-fuego", cat: "entradas", name: "Mariscos al fuego", price: 35000, image: "img/mariscos_al_fuego.jpg", desc: "Frutos del mar salteados con manteca del diablo, ají molido, pimienta y pimentón." },
+  { id: "ebi-furai", cat: "entradas", name: "Ebi Furai", price: 28000, image: "img/ebi_furai.jpg", desc: "Langostinos rebozados en panko con salsa teriyaki, arroz, queso Philadelphia y sésamo." },
+  { id: "ebi-coco-almendras", cat: "entradas", name: "Ebi coco y almendras", price: 35000, image: "img/Ebi_coco_y_almendras.jpg", desc: "Langostinos rebozados en coco y almendras fileteadas, con salsa teriyaki, arroz, queso Philadelphia y sésamo." },
+  { id: "langostinos-tempura", cat: "entradas", name: "Langostinos en tempura", price: 30000, image: "img/langostinos_con_tempura.jpg", desc: "Langostinos rebozados en tempura con salsa teriyaki." },
+  { id: "gambas-ajillo", cat: "entradas", name: "Gambas salteadas al ajillo", price: 28000, image: "img/gambas_salteadas_al_ajillo.jpg", desc: "Gambas salteadas al ajillo." },
+  { id: "rabas-panko", cat: "entradas", name: "Rabas en panko", price: 25000, image: "img/rabas_en_panko.jpg", desc: "Rabas rebozadas en panko." },
+  { id: "korokke-mariscos", cat: "entradas", name: "Korokke de mariscos", price: 20000, image: "img/karokke_de_mariscos.jpg", desc: "Croquetas de arroz rebozadas en panko, con kanikama, langostino y mayonesa japonesa." },
+  { id: "harumaki-carne", cat: "entradas", name: "Harumakis de carne", price: 15000, image: "img/Harumakis_de_carne.jpg", desc: "4 unidades por porción." },
+  { id: "harumaki-vegetariano", cat: "entradas", name: "Harumakis vegetarianos", price: 15000, image: "img/harumakis_vegetarianos.jpg", desc: "4 unidades por porción." },
+  { id: "harumaki-mixto", cat: "entradas", name: "Harumakis mixtos", price: 15000, image: "img/harumakis_mixtos.jpg", desc: "4 unidades por porción: dos de carne y dos de verdura." },
+  { id: "ceviche-casa", cat: "entradas", name: "Ceviche de la casa", price: 25000, image: "img/ceviche_de_la_casa.jpg", desc: "Langostinos, salmón rosado, pesca blanca y guacamole." },
+  { id: "ceviche-tropical", cat: "entradas", name: "Ceviche Tropical", price: 28000, image: "img/ceviche_tropical.jpg", desc: "Salmón, langostinos y calamar con cubitos de mango en salsa de maracuyá." },
+  { id: "korokke-veg", cat: "entradas", name: "Korokke vegetariano", price: 14000, image: "img/korokke_vegetariano.jpg", desc: "Croquetas de arroz frito." },
 
-  { id: "salmon-gohan", cat: "platos", name: "Salmón grillé con arroz gohan", price: 45000, desc: "Salmón grillé con arroz salteado con verdeo y zanahoria." },
-  { id: "salmon-batatas", cat: "platos", name: "Salmón grillé con batatas", price: 45000, desc: "Salmón grillé con batatas en teriyaki." },
+  { id: "salmon-gohan", cat: "platos", name: "Salmón grillé con arroz gohan", price: 45000, image: "img/salmon_grille_con_arroz_gohan.jpg", desc: "Salmón grillé con arroz salteado con verdeo y zanahoria." },
+  { id: "salmon-batatas", cat: "platos", name: "Salmón grillé con batatas", price: 45000, image: "img/salmon_grille_con_batatas.jpg", desc: "Salmón grillé con batatas en teriyaki." },
 
   { id: "yakimeshi-vegetariano", cat: "woks", name: "Yakimeshi vegetariano", price: 20000, desc: "Arroz salteado al wok con zanahoria, cebolla de verdeo y salsa de soja." },
   { id: "yakimeshi-salmon", cat: "woks", name: "Yakimeshi con salmón", price: 33000, desc: "Arroz salteado al wok con salmón, zanahoria, cebolla de verdeo, huevo y salsa de soja." },
@@ -170,14 +170,14 @@ function renderCards(cat) {
   cardsBox.setAttribute("aria-labelledby", "tab-" + cat);
   MENU.filter(m => m.cat === cat).forEach(m => {
     const b = document.createElement("div");
-    b.className = "card";
+    b.className = m.image ? "card has-image" : "card";
     b.setAttribute("role", "button");
     b.tabIndex = 0;
     b.setAttribute("aria-pressed", "false");
     b.setAttribute("aria-label", m.name + ": tocá para ver la descripción");
     b.innerHTML =
       '<div class="in">' +
-        '<div class="face front"><h3>' + m.name + '</h3><div><div class="price">' + money(m.price) + '</div><small>Tocá para ver detalles</small></div></div>' +
+        '<div class="face front">' + (m.image ? '<img class="card-image" src="' + m.image + '" alt="' + m.name + '" loading="lazy" decoding="async"><div class="card-info"><h3>' + m.name + '</h3><div><div class="price">' + money(m.price) + '</div><small>Tocá para ver detalles</small></div></div>' : '<h3>' + m.name + '</h3><div><div class="price">' + money(m.price) + '</div><small>Tocá para ver detalles</small></div>') + '</div>' +
         '<div class="face back"><p>' + m.desc + '</p><small>' + m.name + ' · ' + money(m.price) + '</small></div>' +
       '</div>';
     const flip = () => {
