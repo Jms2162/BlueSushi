@@ -37,9 +37,9 @@ const MENU = [
   { id: "salmon-gohan", cat: "platos", name: "Salmón grillé con arroz gohan", price: 45000, image: "img/salmon_grille_con_arroz_gohan.jpg", desc: "Salmón grillé con arroz salteado con verdeo y zanahoria." },
   { id: "salmon-batatas", cat: "platos", name: "Salmón grillé con batatas", price: 45000, image: "img/salmon_grille_con_batatas.jpg", desc: "Salmón grillé con batatas en teriyaki." },
 
-  { id: "yakimeshi-vegetariano", cat: "woks", name: "Yakimeshi vegetariano", price: 20000, desc: "Arroz salteado al wok con zanahoria, cebolla de verdeo y salsa de soja." },
-  { id: "yakimeshi-salmon", cat: "woks", name: "Yakimeshi con salmón", price: 33000, desc: "Arroz salteado al wok con salmón, zanahoria, cebolla de verdeo, huevo y salsa de soja." },
-  { id: "yakimeshi-pollo", cat: "woks", name: "Yakimeshi con pollo", price: 25000, desc: "Arroz salteado al wok con pollo, zanahoria, cebolla de verdeo, huevo y salsa de soja." },
+  { id: "yakimeshi-vegetariano", cat: "woks", name: "Yakimeshi vegetariano", price: 20000, image: "img/yakimeshi_vegetariano.jpg", desc: "Arroz salteado al wok con zanahoria, cebolla de verdeo y salsa de soja." },
+  { id: "yakimeshi-salmon", cat: "woks", name: "Yakimeshi con salmón", price: 33000, image: "img/yakimeshi_con_salmon.jpg", desc: "Arroz salteado al wok con salmón, zanahoria, cebolla de verdeo, huevo y salsa de soja." },
+  { id: "yakimeshi-pollo", cat: "woks", name: "Yakimeshi con pollo", price: 25000, image: "img/yakimeshi_con_pollo.jpg", desc: "Arroz salteado al wok con pollo, zanahoria, cebolla de verdeo, huevo y salsa de soja." },
   { id: "yakimeshi-langostinos", cat: "woks", name: "Yakimeshi con langostinos", price: 33000, desc: "Arroz salteado al wok con langostinos, zanahoria, cebolla de verdeo, huevo y salsa de soja." },
   { id: "yakisoba-lomo", cat: "woks", name: "Yakisoba con lomo", price: 30000, desc: "Fideos salteados al wok con lomo, zanahoria, cebolla de verdeo y salsa de soja." },
   { id: "yakisoba-cerdo", cat: "woks", name: "Yakisoba con cerdo", price: 25000, desc: "Fideos salteados al wok con cerdo, zanahoria, cebolla de verdeo y salsa de soja." },
